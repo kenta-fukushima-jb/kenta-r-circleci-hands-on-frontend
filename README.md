@@ -1,17 +1,22 @@
 
 # CircleCIハンズオン初級編
 ## 準備
-### GitHubアカウントの準備
+### 1. GitHubアカウントの準備
 こちらのURLからアカウントを登録ください
 
 https://docs.github.com/ja/github/getting-started-with-github/signing-up-for-a-new-github-account
 
-### Nodejsのインストール
+### 2. Nodejsのインストール
 こちらのサイトからインストールを実施ください
 
 https://nodejs.org/ja/download/
 
-### S３の作成
+### 3. Gitのインストール
+こちらのサイトからインストールを実施ください
+
+https://git-scm.com/downloads
+
+### 4. S３の作成
 S３作成は[こちら](準備.md)を実施ください
 
 ## ハンズオン①
@@ -23,13 +28,14 @@ https://github.com/kenta-r/kenta-r-circleci-hands-on-frontend
 ```
 git clone git@github.com:kenta-r/kenta-r-circleci-hands-on-frontend.git
 cd kenta-r-circleci-hands-on-frontend
-ls
 npm install
 npm start
 ```
 こちらの画面が表示されればOK!
 ![画像](images/001.png)
 
+GitHubにリポジトリを作成（Privateでも可)し、先ほどCloneしたソースをプッシュしてください。
+.gitフォルダを削除すると便利です。
 
 ## ハンズオン②
 CircleCIの設定
